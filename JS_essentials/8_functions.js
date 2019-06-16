@@ -2,7 +2,7 @@ function killGoTCharacter(person) {
   console.log(person, ' is dead');
 }
 
-killGoTCharacter('Some character');
+killGoTCharacter('Your favourite character');
 
 
 
