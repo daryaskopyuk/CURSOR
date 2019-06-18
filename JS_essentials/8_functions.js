@@ -42,10 +42,22 @@ function greetUser(name) {
   console.log('Hello, ', name);
 }
 
+// Call function before its declaration + funct with no return
+showPrice(195.6);
+
+function showPrice(price) {
+  console.log('Price is:', price);
+}
+
 // Function declaration
 const sum = function(a, b) {
   return a + b;
 };
+
+// function with empty return
+function doNothing() {
+  return;
+}
 
 // Anonymous functions
 function ask(age, yes, no) {
