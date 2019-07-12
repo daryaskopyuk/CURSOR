@@ -14,4 +14,4 @@ console.log(`User name is ${user}`);
 console.log('Location data:', JSON.parse(locationData));
 
 localStorage.removeItem('locationData');
-// localStorage.clear();
+localStorage.clear();

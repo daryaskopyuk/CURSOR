@@ -1,25 +1,25 @@
 const browsers = ['Chrome', 'Safari', 'IE'];
 
-// for (let browser of browsers) {
-//   console.log(browser);
-// }
+for (let browser of browsers) {
+  console.log(browser);
+}
 
-// const name = 'Innokentiy';
-//
-// for (let char of name) {
-//   console.log(char);
-// }
+const name = 'Innokentiy';
 
-// console.log(typeof browsers[Symbol.iterator]);
-// console.log(browsers[Symbol.iterator]());
+for (let char of name) {
+  console.log(char);
+}
 
-// const iterator = browsers[Symbol.iterator]();
-//
-// console.log(iterator.next());
-// console.log(iterator.next());
-// console.log(iterator.next());
-// console.log(iterator.next());
-//
+console.log(typeof browsers[Symbol.iterator]);
+console.log(browsers[Symbol.iterator]());
+
+const iterator = browsers[Symbol.iterator]();
+
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+
 const iterableObject = {
   from: 1,
   to: 10,
