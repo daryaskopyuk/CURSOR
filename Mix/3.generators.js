@@ -7,10 +7,12 @@ function* process() {
 
 let iterator = process();
 
+console.log(iterator);
 console.log(iterator.next());
 console.log(iterator.next());
 
-// Example 2
+
+// // Example 2
 function* sequence() {
   console.log('First');
   yield 100;
@@ -26,10 +28,11 @@ const seq = sequence();
 console.log(seq.next());
 console.log(seq.next());
 console.log(seq.next());
+console.log(seq.next());
 
 // Example 3
 function* connection() {
-  const res = yield  5 * 5;
+  const res = yield 5 * 5;
 
   console.log(`Res is ${res}`);
 }
