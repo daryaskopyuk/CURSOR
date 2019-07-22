@@ -23,9 +23,9 @@ const defaultValue = 'Cursor';
 
 export default defaultValue;
 
-const testValue = 'Test'
-
-export default testValue;
+// const testValue = 'Test'
+//
+// export default testValue;
 
 
 

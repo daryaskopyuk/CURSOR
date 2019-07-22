@@ -1,0 +1,16 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Cursor calculator",
+  "main": "src/index.js",
+  "devtool": "cheap-eval-source-map",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "author": "Darya Skopyuk",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
