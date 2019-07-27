@@ -16,7 +16,7 @@ const book = new Book('You don\'t know JS');
 
 console.log(book);
 
-export function() { console.log('Error'); }; // error
+// export function() { console.log('Error'); }; // error
 
 console.log(data);
 
